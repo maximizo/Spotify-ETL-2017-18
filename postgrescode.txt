@@ -7,9 +7,12 @@ CREATE TABLE data_2017(
 	speechiness VARCHAR,
 	liveness VARCHAR,
 	tempo VARCHAR,
-	duration_ms VARCHAR
+	duration_min VARCHAR
 );
 
+SELECT * FROM data_2017
+
+DROP TABLE data_2018
 CREATE TABLE data_2018(
 	song_name VARCHAR,
 	artists VARCHAR,
@@ -18,5 +21,10 @@ CREATE TABLE data_2018(
 	speechiness VARCHAR,
 	liveness VARCHAR,
 	tempo VARCHAR,
-	duration_ms VARCHAR
+	duration_min VARCHAR
 );
+
+DROP TABLE data_2017
+SELECT * FROM data_2017
+
+SELECT * FROM data_2018
