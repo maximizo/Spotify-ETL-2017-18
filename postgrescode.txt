@@ -1,0 +1,22 @@
+DROP TABLE data_2017
+CREATE TABLE data_2017(
+	song_name VARCHAR,
+	artists VARCHAR,
+	danceability VARCHAR,
+	energy VARCHAR,
+	speechiness VARCHAR,
+	liveness VARCHAR,
+	tempo VARCHAR,
+	duration_ms VARCHAR
+);
+
+CREATE TABLE data_2018(
+	song_name VARCHAR,
+	artists VARCHAR,
+	danceability VARCHAR,
+	energy VARCHAR,
+	speechiness VARCHAR,
+	liveness VARCHAR,
+	tempo VARCHAR,
+	duration_ms VARCHAR
+);
